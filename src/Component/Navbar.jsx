@@ -9,8 +9,8 @@ export default function Navbar() {
   };
 
   return (
-    <nav className="bg-white shadow-md p-4 fixed w-full z-50 flex justify-between items-center">
-      <div className="container mx-auto flex justify-between items-center">
+    <nav className="bg-white  p-4 fixed w-full z-50 flex justify-between items-center">
+      <div className="container mx-auto flex justify-center items-center">
         <div className="text-2xl font-bold text-green-600">YourLogo</div>
         
         <div className="flex space-x-6">

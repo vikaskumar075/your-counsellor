@@ -1,3 +1,4 @@
+import Hero from "./Component/Hero";
 import Navbar from "./Component/Navbar";
 
 
@@ -5,9 +6,9 @@ const App = () => {
   return (
     <div>
       <Navbar />
-      aoihhghafhjhdfskjhjhhj
+   
       <section id="home" className="h-screen flex justify-center items-center bg-gray-100">
-        <h1 className="text-4xl font-bold">Home</h1>
+        <Hero/>
       </section>
       <section id="about" className="h-screen flex justify-center items-center bg-blue-100">
         <h1 className="text-4xl font-bold">About</h1>
