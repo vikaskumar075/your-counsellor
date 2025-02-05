@@ -2,7 +2,7 @@ import React from 'react'
 
 const Hero = () => {
   return (
-    <div>
+    <div>   
       <img src="/img1.jpg" alt="" />
     </div>
   )
